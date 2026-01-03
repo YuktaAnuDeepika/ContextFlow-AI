@@ -1,0 +1,8 @@
+{
+  "name": "ContextFlow AI",
+  "description": "A sophisticated AI platform that bridges the gap between generic LLMs and private enterprise data. It features a Context Engine that integrates user profiles, conversation memory, and uploaded datasets to provide personalized, data-driven automation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
