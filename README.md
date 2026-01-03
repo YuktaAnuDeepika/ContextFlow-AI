@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Long-Context RAG AI
 
-# Run and deploy your AI Studio app
+An AI system built for hackathons and beyond — combining **massive context retrieval**, **true data visualization**, **local-first privacy**, and **autonomous workflow orchestration**. Designed to turn raw datasets into actionable insights in real time.
 
-This contains everything you need to run your app locally.
+Key Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1JRqO2nFnot1Vsjt3wpzPZz6xCAF6DTg0
+- **Long-Context RAG Architecture**  
+  Harnesses Gemini’s huge context window to ingest entire private datasets (CSV, JSON, PDF) directly into the reasoning loop. Responses are grounded in *your* data, not generic knowledge.
 
-## Run Locally
+- **True Data Visualization**  
+  A heuristic parsing engine reads raw uploaded files to generate **dynamic, interactive charts** and statistical summaries (averages, peaks, trends) inside the chat and knowledge base.
 
-**Prerequisites:**  Node.js
+- **Local-First Privacy**  
+  All private documents and conversation histories are stored securely in your browser sandbox using **IndexedDB**. Your data stays local, minimizing external exposure.
 
+- **Autonomous Workflow Orchestration**  
+  The built-in **Neural Hub** detects intent and can schedule tasks, triggers, or automated reports based on extracted findings — going beyond simple Q&A.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Persona-Driven Intelligence**  
+  Customize the AI’s analytical tone, depth, and output format with an **Identity Profile**, tailoring insights to your professional role.
+
+Our system transforms raw datasets into real-time insights with long-context RAG, interactive visualization, and local-first privacy. It doesn’t just answer questions — it orchestrates workflows and adapts to your professional persona, making data analysis smarter, faster, and safer.
+
