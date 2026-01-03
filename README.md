@@ -19,5 +19,16 @@ Key Features
 - **Persona-Driven Intelligence**  
   Customize the AI’s analytical tone, depth, and output format with an **Identity Profile**, tailoring insights to your professional role.
 
-Our system transforms raw datasets into real-time insights with long-context RAG, interactive visualization, and local-first privacy. It doesn’t just answer questions — it orchestrates workflows and adapts to your professional persona, making data analysis smarter, faster, and safer.
+Our system transforms raw datasets into real-time insights with long-context RAG, interactive visualization, and local-first privacy. It doesn’t just answer questions — it orchestrates workflows 
+
+## Run Locally
+
+*Prerequisites:*  Node.js
+
+
+1. Install dependencies:
+   npm install
+2. Set the GEMINI_API_KEY in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   npm run dev
 
